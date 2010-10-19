@@ -50,6 +50,7 @@ obj-$(CONFIG_PM)		+= irq-pm.o
 # Machine support
 
 obj-$(CONFIG_MACH_ANW6410)	+= mach-anw6410.o
+obj-$(CONFIG_MACH_IDEA6410)	+= mach-idea6410.o
 obj-$(CONFIG_MACH_SMDK6400)	+= mach-smdk6400.o
 obj-$(CONFIG_MACH_SMDK6410)	+= mach-smdk6410.o
 obj-$(CONFIG_MACH_REAL6410)     += mach-real6410.o
